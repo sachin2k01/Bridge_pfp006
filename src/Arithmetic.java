@@ -10,19 +10,22 @@ public class Arithmetic
         double n1=sc.nextDouble();
         System.out.println("Enter Second Number Number");
         double n2=sc.nextDouble();
-        System.out.println("Enter 1. for Addition\n Enter 2. for Subtraction\n");
+        System.out.println("Enter 1. for Addition\n Enter 2. for Subtraction\n Enter 3. for Multiplication\n");
         System.out.println("Choose an Option");
         int ch=sc.nextInt();
         if(ch==1)
         {
             double res=n1+n2;
-            System.out.println("Sum of Two Number is"+res);
+            System.out.println("Sum of Two Number is "+res);
         } else if (ch==2)
         {
             double res=n1-n2;
-            System.out.println("Sub of Two Number is"+res);
-        }
-        else
+            System.out.println("Sub of Two Number is "+res);
+        } else if (ch==3)
+        {
+            double res=n1*n2;
+            System.out.println("Multiply of Two Number is "+res);
+        } else
         {
             System.out.println("Invalid Choice");
         }
