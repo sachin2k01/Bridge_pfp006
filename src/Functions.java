@@ -1,22 +1,22 @@
 public class Functions
 {
-        public static double Add(double a, double b)
+        public double Add(double a, double b)
         {
             return a+b;
         }
-        public static double Sub(double a, double b)
+        public double Sub(double a, double b)
         {
             return a-b;
         }
-        public static double Mul(double a, double b)
+        public double Mul(double a, double b)
         {
             return a*b;
         }
-        public static double Div(double a, double b)
+        public double Div(double a, double b)
         {
             return a/b;
         }
-        public static double Mod(double a, double b)
+        public double Mod(double a, double b)
         {
             return a%b;
         }

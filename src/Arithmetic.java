@@ -7,7 +7,8 @@ public class Arithmetic
         Scanner sc=new Scanner(System.in);
         System.out.println("Welcome to Calender");
         Functions f=new Functions();
-        do {
+        do
+        {
             System.out.println("Enter 1. for Addition\nEnter 2. for Subtraction\nEnter 3. for Multiplication\nEnter 4. for Division\nEnter 5. for Mod");
             System.out.println("Choose an Option");
             int ch = sc.nextInt();
